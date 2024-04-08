@@ -1,0 +1,18 @@
+html, body{
+  padding:0 ;
+  margin:0;
+}
+body{
+  overflow: hidden;
+}
+html[data-theme='dark']{
+  --text-color: #fff;
+  --bg1: #102128;
+  --bg2: #2d5567;
+}
+
+:root{
+  --text-color: #333;
+  --bg1: #c7ffdd;
+  --bg2: #fdb988;
+}
